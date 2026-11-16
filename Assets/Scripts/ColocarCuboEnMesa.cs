@@ -50,11 +50,10 @@ public class ColocarCuboEnMesa : MonoBehaviour
             Debug.Log("RA: El toque no coincide con un plano");
             return;
         }
-
+        
         Pose pose = impactos[0].pose;
         Vector3 centro = pose.position +
         Vector3.up * (tamanoCubo / 2f);
-        
         if (cuboActual == null)
         {
             cuboActual = Instantiate(
