@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR_Tarjeta.unity
     guid: 397bd81ea3a6dd64583fe064ffbf5507
+  - enabled: 1
+    path: Assets/Scenes/AR_Mesa.unity
+    guid: a99cbdf4a7655da439f0140eab300bcf
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: dc370fd69c5ab1842a0b8b2dec09ae2e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
